@@ -1,0 +1,130 @@
+.main_page {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(223deg, #0d0d0d, #003528);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.about_page{
+    position:absolute;
+    left:0px;
+    top:100%;
+    width:100%;
+    height:100%;
+
+}
+.port_page{
+    position:absolute;
+    left:0px;
+    top:200%;
+    width:100%;
+    height:100%;
+}
+.footer {
+    position: absolute;
+    left: 0px;
+    top: 300%;
+    width: 100%;
+    height: 40%;
+    background: #212121;
+}
+.quote_1 {
+    position: absolute;
+    left: 220px;
+    top: 382px;
+    color: #cfcfcf;
+    font-size: 55px;
+    width: 930px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: italic;
+}
+.quote_2 {
+    position: absolute;
+    left: 910px;
+    top: 520px;
+    color: #00916d;
+    font-size: 18px;
+    width: 225px;
+    height: 30px;
+    font-family: Montserrat;
+    text-shadow: 0px 0px 4px #ebebeb;
+}
+.button {
+    position: absolute;
+    height: 40px;
+    font-size: 33px;
+    color: #00916d;
+    top: 50px;
+    padding-top: 0px;
+    font-family: Montserrat;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.button:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px #ebebeb;
+    background: #ebebeb;
+}
+.main_button {
+    left: 672px;
+    width: 160px;
+}
+.about_button {
+    left: 835px;
+    width: 172px;
+}
+
+.port_button {
+    left: 1010px;
+    width: 215px;
+}
+.logo {
+    position: absolute;
+    width: 110px;
+    left: 40px;
+    top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (width:1000px){
+    .offer_text2{
+        left:537.3px;
+    }
+}
+@media (width:1100px) {
+    .offer_text2 {
+        left: 636.3px;
+    }
+}
+@media (width:1200px) {
+    .offer_text2 {
+        left: 737.3px;
+    }
+}
+@media (width:1300px) {
+    .offer_text2 {
+        left: 837.3px;
+    }
+}
+@media (width:1400px) {
+    .offer_text2 {
+        left: 937.3px;
+    }
+}
+
+
+
+
+
+
